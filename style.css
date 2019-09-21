@@ -1,0 +1,48 @@
+#game-area {
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 230px;
+    justify-content: space-evenly;
+    background: #bababa;
+    align-content: space-around;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    color: #58585a;
+}
+
+.heading img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+#tries {
+    margin-left: 10px;
+}
+
+.card {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    background: white;
+}
+
+.hidden p {
+    visibility: hidden;
+}
+
+.hidden img{
+    visibility: hidden;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
